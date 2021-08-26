@@ -7,6 +7,8 @@ In this page we are trying to give back the message format for all the functions
 * DLC: 8
 * kpbs: 500.000
 
+### Examples
+
  VALUE | MESSAGE | REMARK
 ------------ | ------------- | -------------
 0 | 0x12C, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 | 
@@ -28,6 +30,8 @@ In this page we are trying to give back the message format for all the functions
 * DLC: 8
 * kpbs: 500.000
 
+### Examples
+
  VALUE | MESSAGE | REMARK
 ------------ | ------------- | -------------
 0 | 0x6F1, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 | 
@@ -37,6 +41,8 @@ In this page we are trying to give back the message format for all the functions
 * RTR: No
 * DLC: 8
 * kpbs: 500.000
+
+### Examples
 
 VALUE | MESSAGE
 ------------ | -------------
@@ -49,11 +55,9 @@ VALUE | MESSAGE
 * DLC: 8
 * kpbs: 500.000
 
-Byte 1: 0x00 - 0x63 (Hexvalue)
+### Examples
  
-Examples:
-
- VALUE | MESSAGE | REMARK
+VALUE | MESSAGE | REMARK
 ------------ | ------------- | -------------
 0 | 0x120, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 | 
 10 | 0x120, 0x0A, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 | 
