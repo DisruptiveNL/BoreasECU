@@ -2,10 +2,10 @@
 In this page we are trying to give back the message format for all the functions added.
 
 ## Steer
-CAN.ID: 0x12C
-RTR: No
-DLC: 8
-kpbs: 500.000
+* CAN.ID: 0x12C
+* RTR: No
+* DLC: 8
+* kpbs: 500.000
 
  VALUE | MESSAGE | REMARK
 ------------ | ------------- | -------------
@@ -23,20 +23,20 @@ kpbs: 500.000
 +2.0 | 0x12C, 0x00, 0x00, 0x00, 0x40, 0x00, 0x00, 0x00, 0x00 | STOP
 
 ### Homing
-CAN.ID: 0x6F1
-RTR: No
-DLC: 8
-kpbs: 500.000
+* CAN.ID: 0x6F1
+* RTR: No
+* DLC: 8
+* kpbs: 500.000
 
  VALUE | MESSAGE | REMARK
 ------------ | ------------- | -------------
 0 | 0x6F1, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 | 
                   
 ## Brake
-CAN.ID: 0x126
-RTR: No
-DLC: 8
-kpbs: 500.000
+* CAN.ID: 0x126
+* RTR: No
+* DLC: 8
+* kpbs: 500.000
 
 VALUE | MESSAGE
 ------------ | -------------
@@ -44,10 +44,10 @@ VALUE | MESSAGE
 10 | 0x126, 0x0A, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
 
 ## Throttle
-CAN.ID: 0x120
-RTR: No
-DLC: 8
-kpbs: 500.000
+* CAN.ID: 0x120
+* RTR: No
+* DLC: 8
+* kpbs: 500.000
 
 Byte 1: 0x00 - 0x63 (Hexvalue)
  
