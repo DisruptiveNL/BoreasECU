@@ -54,7 +54,7 @@ VALUE | MESSAGE
 * RTR: No
 * DLC: 8
 * kpbs: 500.000
-* Byte 3: Forward/Reversed [0x01/0x00]
+* Byte 3: Forward/Reverse [0x01/0x00]
 
 ### Examples
  
