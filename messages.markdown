@@ -1,6 +1,10 @@
 # Message Definition
 In this page we are trying to give back the message format for all the functions added.
 
+:zap:
+It can be that your system is MSB vs LSB, so the DLC 4 messages could be different.
+Say: 0x12C, 0x3D, 0xCC, 0xCC, 0xCD --> 0x12C, 0xCD, 0xCC, 0xCC, 0x3D
+
 ## Steer & Homing Steer
 * CAN.ID: 0x12C [300] STEER
 * CAN.ID: 0x6F1 [1777] HOMING STEER
