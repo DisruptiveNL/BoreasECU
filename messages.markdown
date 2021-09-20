@@ -56,6 +56,9 @@ VALUE | MESSAGE
 * kpbs: 500.000
 * Byte 3: Forward/Reverse [0x01/0x00]
 
+:exclamation:
+For the ZAPI controller one must not reach < 0.5V (0x06 value on DAC Kart 1)
+
 ### Examples
  
 VALUE | MESSAGE | REMARK
